@@ -444,7 +444,7 @@ static void t_apci(int *status)
 
    eraApci(date1, date2, ebpv, ehp, x, y, s, &astrom);
 
-   vvd(astrom.pmt, 12.65133794027378508, 1e-11,
+   vvd(astrom.pmt, 12.75133794027378508, 1e-11,
                    "eraApci", "pmt", status);
    vvd(astrom.eb[0], 0.901310875, 1e-12,
                      "eraApci", "eb(1)", status);
